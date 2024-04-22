@@ -1,0 +1,85 @@
+.table .header-cell {
+    position: relative;
+}
+
+.table .header-cell:after {
+    content: "\f063";
+    font-family: FontAwesome;
+    font-size: 1rem;
+    color: #000000;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.unread-message-icon {
+    position: relative;
+}
+
+.unread-message-icon::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #F00;
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.accordion-button{
+    color: black !important;
+    font-weight: 600;
+}
+
+.btn-group{
+    display: inline;
+    float: left;
+    margin: 2% -8%;
+}
+
+.rightComponent{
+    float: right;
+    margin: 2% -8%;
+}
+
+table{
+    border: 2px solid gray;
+    border-radius: 8%;
+    text-align: left;
+}
+
+table thead{
+    background-color: lightgrey;
+}
+
+#deleteRow{
+    color: red;
+}
+
+#totalRow{
+    background-color: rgb(205, 227, 230);
+    font-weight: 600;
+}
+
+#addItem{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.totalValue{
+    background-color: #e3f2fd;
+    border-radius: 4%;
+}
+
+#saveBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    background-color: lightgray;
+    padding: 10px 50px;
+}
